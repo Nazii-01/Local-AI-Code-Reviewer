@@ -11,7 +11,7 @@ Download from https://ollama.com and install it.
 
 ### Step 2 — Pull the model
 ```bash
-ollama pull qwen2.5-coder:7b
+ollama pull qwen2.5-coder:3b
 ```
 
 ### Step 3 — Clone and install
@@ -27,7 +27,7 @@ Edit the `.env` file:
 GITHUB_SECRET=any_secret_you_choose
 GITHUB_TOKEN=your_github_personal_access_token
 OLLAMA_URL=http://localhost:11434
-OLLAMA_MODEL=qwen2.5-coder:7b
+OLLAMA_MODEL=qwen2.5-coder:3b
 ```
 
 ---
