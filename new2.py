@@ -1,19 +1,12 @@
-import sqlite3
-
-def get_user(username):
-    conn = sqlite3.connect("users.db")
-
-    query = "SELECT * FROM users WHERE username = '" + username + "'"
-
-    result = conn.execute(query)
-    return result.fetchone()
-
-
-def divide(a, b):
-    return a / b
-
-
-password = "admin123"
-
-print(get_user("admin"))
-print(divide(10, 0))
+public class TextCheck {
+    public static void main(String[] args) {
+        String input1 = "hello";
+        String input2 = new String("hello");
+        
+        if (input1 == input2) {
+            System.out.println("The words match!");
+        } else {
+            System.out.println("The words do not match!");
+        }
+    }
+}
