@@ -25,7 +25,7 @@ app = Flask(__name__)
 GITHUB_SECRET = os.getenv("GITHUB_SECRET", "your_webhook_secret")
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN", "")
 OLLAMA_URL = os.getenv("OLLAMA_URL", "http://localhost:11434")
-OLLAMA_MODEL = os.getenv("OLLAMA_MODEL", "qwen2.5-coder:7b")
+OLLAMA_MODEL = os.getenv("OLLAMA_MODEL", "qwen2.5-coder:3b")
 
 
 # ─── SYSTEM PROMPT ───────────────────────────────────────────────
