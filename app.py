@@ -449,7 +449,7 @@ actually visible in the diff.
             )
 
             comment_body = (
-                "## 🤖 Local AI Code Review\n\n"
+                "## Local AI Code Review\n\n"
                 f"*Reviewed by `{OLLAMA_MODEL}` running locally — "
                 "no code was sent to any external AI provider.*"
                 "\n\n---\n\n"
